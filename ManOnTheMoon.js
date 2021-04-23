@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"ManOnTheMoon_atlas_", frames: [[0,927,1416,876],[0,0,1496,925]]},
-		{name:"ManOnTheMoon_atlas_2", frames: [[1221,953,340,623],[879,953,340,623],[537,953,340,623],[0,0,1235,650],[968,1578,431,282],[0,1469,522,523],[1734,1267,169,296],[1932,935,24,578],[0,652,535,815],[1237,469,101,103],[1379,767,78,100],[524,1862,107,100],[1563,469,196,702],[537,652,840,299],[1761,469,267,464],[1761,935,169,330],[1379,469,169,296],[1563,1173,169,336],[1237,0,777,467],[524,1578,442,282],[1401,1578,536,221],[1401,1801,536,221]]}
+		{name:"ManOnTheMoon_atlas_2", frames: [[1221,953,340,623],[537,953,340,623],[879,953,340,623],[0,0,1235,650],[968,1578,431,282],[0,1469,522,523],[1734,1267,169,296],[1932,935,24,578],[0,652,535,815],[1237,469,101,103],[1379,767,78,100],[524,1862,107,100],[1563,469,196,702],[537,652,840,299],[1761,469,267,464],[1761,935,169,330],[1379,469,169,296],[1563,1173,169,336],[1237,0,777,467],[524,1578,442,282],[1401,1578,536,221],[1401,1801,536,221]]}
 ];
 
 
@@ -940,7 +940,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 			self.gotoAndPlay(1);
 		}
 	}
-	this.frame_2 = function() {
+	this.frame_4 = function() {
 		playSound("_3sec");
 	}
 	this.frame_120 = function() {
@@ -965,7 +965,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(2).call(this.frame_2).wait(118).call(this.frame_120).wait(446).call(this.frame_566).wait(523).call(this.frame_1089).wait(1).call(this.frame_1090).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(4).call(this.frame_4).wait(116).call(this.frame_120).wait(446).call(this.frame_566).wait(523).call(this.frame_1089).wait(1).call(this.frame_1090).wait(1));
 
 	// Camera
 	this.___camera___instance = new lib.___Camera___();
@@ -1159,16 +1159,16 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_1.png?1619171724786", id:"CachedTexturedBitmap_1"},
-		{src:"images/CachedTexturedBitmap_15.png?1619171724786", id:"CachedTexturedBitmap_15"},
-		{src:"images/CachedTexturedBitmap_2.png?1619171724786", id:"CachedTexturedBitmap_2"},
-		{src:"images/CachedTexturedBitmap_21.png?1619171724786", id:"CachedTexturedBitmap_21"},
-		{src:"images/CachedTexturedBitmap_22.png?1619171724786", id:"CachedTexturedBitmap_22"},
-		{src:"images/CachedTexturedBitmap_27.png?1619171724786", id:"CachedTexturedBitmap_27"},
-		{src:"images/ManOnTheMoon_atlas_.png?1619171724455", id:"ManOnTheMoon_atlas_"},
-		{src:"images/ManOnTheMoon_atlas_2.png?1619171724455", id:"ManOnTheMoon_atlas_2"},
-		{src:"sounds/_3sec.mp3?1619171724786", id:"_3sec"},
-		{src:"sounds/space1.mp3?1619171724786", id:"space1"}
+		{src:"images/CachedTexturedBitmap_1.png?1619172010099", id:"CachedTexturedBitmap_1"},
+		{src:"images/CachedTexturedBitmap_15.png?1619172010099", id:"CachedTexturedBitmap_15"},
+		{src:"images/CachedTexturedBitmap_2.png?1619172010099", id:"CachedTexturedBitmap_2"},
+		{src:"images/CachedTexturedBitmap_21.png?1619172010099", id:"CachedTexturedBitmap_21"},
+		{src:"images/CachedTexturedBitmap_22.png?1619172010099", id:"CachedTexturedBitmap_22"},
+		{src:"images/CachedTexturedBitmap_27.png?1619172010099", id:"CachedTexturedBitmap_27"},
+		{src:"images/ManOnTheMoon_atlas_.png?1619172009746", id:"ManOnTheMoon_atlas_"},
+		{src:"images/ManOnTheMoon_atlas_2.png?1619172009746", id:"ManOnTheMoon_atlas_2"},
+		{src:"sounds/_3sec.mp3?1619172010099", id:"_3sec"},
+		{src:"sounds/space1.mp3?1619172010099", id:"space1"}
 	],
 	preloads: []
 };
